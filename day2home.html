@@ -16,14 +16,15 @@
     <title>Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
+    <nav class="navbar navbar-expand-lg  body-navbar ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="logo.png" class="nav-logo"></a>
+          <a class="navbar-brand" href="#">PIXELATED</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll nav-menu" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -41,17 +42,20 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
+              <!---
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Link</a>
-              </li>
+              </li>-->
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn nav-btn" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
+
+      <div class="below-nav"><p><font color="#755985" size="6">Get 15%  off on first purchase !!</font></p></div>
 
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
@@ -169,5 +173,42 @@
         
       </div>
       <div class="home-desc"><p><font color="pink" size="6">Have you ever played the snake game?</font></p></div>
+      <!--
+        Block for game
+      -->
+      <div class="play-games">
+        <img src="PLAY NOW.png">
+      </div>
+      <!--
+        Block for game
+      -->
+
+      <div class="social-desc">
+        <p><font color="#755985" size="6">Quick links and Social Handles</font></p>
+      </div>
+
+      <div class="body-footer">
+        <div class="footer-items">
+          <img src="flower.png">
+        </div>
+        <div class="footer-links">
+          <div class="quick-links">
+            <h2>QUICK LINKS</h2>
+              <ul>
+                <li>CONTACT</li>
+                <li>ABOUT US</li>
+                <li>SHOP NOW</li>
+              </ul>
+          </div>
+          <div class="social-links"></div>
+          <h2>SOCIAL LINKS</h2>
+          <ul>
+            <li>INSATGRAM</li>
+            <li>TWITTER</li>
+            <li>FACEBOOK</li>
+          </ul>
+        </div>
+      </div>
+
 </body>
 </html>
